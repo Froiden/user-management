@@ -1,28 +1,35 @@
-# Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Installation
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
+  1. clone the repository
+  2. `cd froiden-starter`
+  3. create `.env` file at the root and copy the content of `.env.example`
+  4. Add database setting to the `.env` file
+  5. Run `composer install`  
+  6. Run the command on terminal to install migrations `php artisan migrate`
+  7. Run the command on terminal to seed the database `php artisan db:seed`
+  8. Run the command on terminal to generate key `php artisan key:generate`
+  9. Run `php artisan serve`
+  10. You can access to browser `http://localhost:8000/admin`
+  11. Default Login `admin@froiden.com` and pass: `123456`
+  
+  
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+##Plugins Used
+  1. ["yajra/laravel-datatables-oracle": "~6.0" ](https://github.com/yajra/laravel-datatables)
+  2. ["anlutro/l4-settings" ](https://github.com/anlutro/laravel-settings)
+  3. "Froiden Helper" 
+  
+##Theme Used
+[AdminLte ](https://almsaeedstudio.com/preview)
+##Features
+  1. Login using ajax
+  2. User Management(CRUD)
+  3. Logout
+  
+  
+## Contribution
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-# user-management
+It is developed by Ajay Kumar Choudhary at [FROIDEN ](http://www.froiden.com)
