@@ -17,14 +17,14 @@
   
   
 
-##Plugins Used
+## Plugins Used
   1. ["yajra/laravel-datatables-oracle": "~6.0" ](https://github.com/yajra/laravel-datatables)
   2. ["anlutro/l4-settings" ](https://github.com/anlutro/laravel-settings)
   3. "Froiden Helper" 
   
-##Theme Used
+## Theme Used
 [AdminLte ](https://almsaeedstudio.com/preview)
-##Features
+## Features
   1. Login using ajax
   2. User Management(CRUD)
   3. Logout
